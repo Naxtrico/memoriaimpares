@@ -121,6 +121,27 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	padding: 0 !important;
 }
+.webgrafia,  ul {
+	text-decoration: none;
+	outline: none;
+	color: #6a6a6a;
+
+}
+.biblio{
+	width: 100%;
+	height: 200px;
+	padding-top: 30px;
+}
+.bi_text{
+	color:#000;
+
+}
+.web_a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	margin-top: 10px;
+}
 
 
 #header .top {
@@ -150,19 +171,29 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #header .logo, #header .toggleDrawer{
-	font-family: 'Alegreya SC';
+	font-family: 'PT Serif';
 	color: white;
 }
-.colum_up, .colum_down{
+.colum_up{
 	width: 500px;
     height: 377px;
-    float: left;
+    display: block;
     text-align: left;
-    padding-left: 30px;
+    float:left;
   
  
     line-height: 25px;
    
+}
+.colum_down{
+	width: 500px;
+    height: 377px;
+    display: block;
+    text-align: left;
+    float:right;
+  
+ 
+    line-height: 25px;
 }
 .colum_up_impares{
 	width: 500px;
@@ -171,7 +202,7 @@ h1, h2, h3, h4, h5, h6{
     text-align: left;
     padding-left: 30px;
   	line-height: 25px;
-  	margin-left: 6%;
+  	
 
 }
 .iconsize_ch{
@@ -523,7 +554,11 @@ h1, h2, h3, h4, h5, h6{
 //  11 - Responsive styles
 ///////////////////////////////////////////////////////////////////////*/
 
+@media (max-width: 1036px){
+	.colum_up{
 
+	}
+}
 @media (max-width: 767px){
 	.blog-post {
 		margin-bottom: 40px;
@@ -567,3 +602,15 @@ h1, h2, h3, h4, h5, h6{
 		background-size: cover;
 	}
 }
+
+@media (max-width: 480px) {
+
+.colum_up, .colum_down{
+	width: 100%;
+	padding-right: 5%;
+	margin-left: 0%;
+}
+.colum_down{
+	
+}
+
