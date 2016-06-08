@@ -67,7 +67,7 @@ a {
 }
 
 a{	
-	color: #4da7ca;
+	color: #fff;
 	-o-transition: all .4s;
 	-ms-transition: all .4s;
 	-moz-transition: all .4s;
@@ -76,14 +76,20 @@ a{
 }
 
 a:hover {
-	color: #4290ae;	
+	color: #000;	
 }
 
 
 h1, h2, h3, h4, h5, h6{		
 	margin: 0 0 15px 0;	
 	color: #3A4F52;
-	font-family: 'Alegreya Sans';
+	font-family: 'PT Serif';
+}
+.idea_text{
+	margin: 0 0 15px 0;	
+	color: #fff;
+	font-family: 'PT Serif';
+
 }
 
 .btn{border-radius: 0;}
@@ -168,8 +174,66 @@ h1, h2, h3, h4, h5, h6{
   	margin-left: 6%;
 
 }
+.colum_up_logoimpares{
+	width: 500px;
+    height: 280px;
+    float: left;
+    text-align: left;
+    padding-top: 22px;
+    padding-left: 30px;
+  	line-height: 25px;
+  	margin-left: 6%;
+}
+.colum_up_referencies{
+	width: 500px;
+    height: auto;
+ 
+    text-align: center;
+   
+    margin: 0 auto;
+  	line-height: 25px;
+  	padding-bottom: 14px;
+  	
+}
 .colum_up{
 	 margin-left: 6%;
+}
+.btn-colors {
+	width: 200px;
+	margin-left: 10px;
+	padding: 15px;
+	color: #fff;
+	display: inline;
+	pointer-events: none;
+   cursor: default;
+}
+
+.ptserif{
+	font-family: "PT Serif";
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	
+	
+}
+.opensans{
+	font-family: "Open Sans";
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.btn-text{
+	text-align: center;
+	font-family: "Open Sans";
+	font-weight: bold;
+	padding-bottom: 15px;
+	padding-top: 30px;
+}
+.referentes{
+	display:block;
+	margin:0 auto;
+	padding: 15px;
 }
 #header .slogan{
 	font-size: 3em;
@@ -213,12 +277,16 @@ h1, h2, h3, h4, h5, h6{
     top: 0;
     bottom: 0;
     margin-right: -300px;
-    background: #2B3E51;
+    background: #000;
     width: 300px;
     padding: 20px;
     z-index: 999;
+    overflow: scroll;
 }
 
+#drawer-right ul {
+    margin-top:34px;
+}
 #drawer-right h1, #drawer-right h2{color: white;}
 
 #drawer-right .nav-pills>li>a {
@@ -270,11 +338,11 @@ h1, h2, h3, h4, h5, h6{
 #header {
 	background-image: url(../images/header-bg.jpg);
 }
-#services {
+#services, #services_idea {
 	background-image: url(../images/post.jpg);
 	color: white;
 }
-#impares {
+#impares, #impares_ref, #impares_tip, #impares_dis {
 	background-color: #e5e5e5;
 }
 .impares{
